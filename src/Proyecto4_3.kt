@@ -10,5 +10,5 @@ fun main()  {
     print("Ingrese precio de los productos :" )
     val precio : Int = readLine()!!.toInt()
     val pago : Int = cantidad * precio
-    println("Monta a  cancelar por la compra es : $pago")
+    println("Monto a  cancelar por la compra es : $pago")
 }
