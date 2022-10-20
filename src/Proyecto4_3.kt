@@ -8,7 +8,7 @@ fun main()  {
     print("Ingrese cantidad de productos :" )
     val cantidad : Int = readLine()!!.toInt()
     print("Ingrese precio de los productos :" )
-    val precio : Int = readLine()!!.toInt()
-    val pago : Int = cantidad * precio
+    val precio : Double = readLine()!!.toDouble()
+    val pago : Double = cantidad * precio
     println("Monto a  cancelar por la compra es : $pago")
 }
